@@ -26,7 +26,7 @@ One row. That's the whole footprint.
 The easy way: send this link to your agent and say "install this".
 
 ```
-https://github.com/robonuggets/ribbon
+https://github.com/TimmyTwoSteppa/ribbon
 ```
 
 Your agent runs one command. The band shows up in your next session.
@@ -36,7 +36,7 @@ Your agent runs one command. The band shows up in your next session.
 If you are an agent and your user asked you to install this, run this in a shell:
 
 ```
-claude plugin install ribbon --marketplace robonuggets/ribbon
+claude plugin install ribbon --marketplace TimmyTwoSteppa/ribbon
 ```
 
 It installs for the user (all their projects) and adds the marketplace on its own. Then tell your user: "Ribbon is installed. Start a new session to see the band above your prompt." Do not edit their settings file by hand.
@@ -46,7 +46,7 @@ It installs for the user (all their projects) and adds the marketplace on its ow
 In a Claude Code terminal session, type:
 
 ```
-/plugin install ribbon --marketplace robonuggets/ribbon
+/plugin install ribbon --marketplace TimmyTwoSteppa/ribbon
 ```
 
 1. Type `y` when it asks `Add marketplace?`.
